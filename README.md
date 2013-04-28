@@ -19,5 +19,6 @@ Very little is needed to run these mini-apps.
 
 1. Install the PHP Sqlite PDO adapter. In Ubuntu, this can be accomplished with: ```$ sudo apt-get install php5-sqlite```
 2. Make the lib/data directory writable by the web server. In Ubuntu, this can be accomplished by entering the following at the application's root: ```$ sudo chown USER:www-data bin/data```
+3. Similarly, make the grabber/logs directory writable by the web server.
 
 After that, you're ready to go!
