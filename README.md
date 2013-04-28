@@ -11,6 +11,8 @@ Right now, these attacks include the following:
 
 These apps are simple and run on top of PHP and Sqlite so that database instances are tied to users' PHPSESSION. The result is that students can be as malicious as they want with their database commands without affecting other students.
 
+This was something I threw together quickly for a course, so the code is not terribly elegant or modular at the moment, and the front end uses Twitter Bootstrap examples and Bootswatch themes shameless for a fast, snazzy front-end.
+
 ## Installation
 
 Very little is needed to run these mini-apps.
