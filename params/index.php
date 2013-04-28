@@ -43,7 +43,7 @@
   <body>
     <div class="container">
       <form action="index.php" method="post" class="form-signin">
-        <h2 class="form-signin-heading">CSG Web Crash Course</h2>
+        <h2 class="form-signin-heading">Web Crash Course</h2>
         <h3 class="form-signin-heading">Parameter Tampering</h3>
         <label class="radio">
             <input type="radio" name="item" id="item1" value="item1" checked>

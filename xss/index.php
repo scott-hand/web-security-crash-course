@@ -43,7 +43,7 @@
   <body>
     <div class="container">
       <form action="index.php" method="post" class="form-signin">
-        <h2 class="form-signin-heading">CSG Web Crash Course</h2>
+        <h2 class="form-signin-heading">Web Crash Course</h2>
         <h3 class="form-signin-heading">XSS / CSRF</h3>
         <input type="text" name="title" autocomplete="off" id="title" class="input-block-level" placeholder="Title">
         <input type="text" name="body" autocomplete="off" id="body" class="input-block-level" placeholder="Message">

@@ -42,7 +42,7 @@
   <body>
     <div class="container">
       <form action="index.php" method="post" class="form-signin">
-        <h2 class="form-signin-heading">CSG Web Crash Course</h2>
+        <h2 class="form-signin-heading">Web Crash Course</h2>
         <h3 class="form-signin-heading">SQL Injection 1</h3>
         <input type="text" name="username" autocomplete="off" id="username" class="input-block-level" placeholder="Username" onKeyUp="userNameChanged(this.value)">
         <input type="text" name="password" autocomplete="off" id="password" class="input-block-level" placeholder="Password" onKeyUp="passwordChanged(this.value)">
