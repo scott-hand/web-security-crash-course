@@ -54,7 +54,7 @@
 
         session_start();
 
-        $filename = "../lib/data/" . session_id() . ".db";
+        $filename = "../lib/data/" . base64_encode(base64_encode(session_id())) . ".db";
         $db = file_exists($filename) ? initDB($filename) : initDB($filename);
 
         if (isset($_POST['title']))

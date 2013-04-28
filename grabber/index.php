@@ -47,7 +47,7 @@
         <hr />
         <?php
             session_start();
-            $id = session_id();
+            $id = base64_encode(base64_encode(session_id()));
 
             if (!is_dir('logs'))
                 mkdir('logs');
