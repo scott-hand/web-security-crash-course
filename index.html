@@ -7,7 +7,7 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <style>
       body {
-        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+        padding-top: 40px;
       }
     </style>
     <script src="assets/js/jquery.js"></script>
@@ -17,16 +17,17 @@
   <body>
 
     <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
         <div class="container">
-          <a class="brand" href="#">Web Security Basics Crash Course</a>
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Web Security Basics Crash Course</a>
+                <p style="clear:left"></p>
+            </div>
         </div>
-      </div>
     </div>
 
     <div class="container">
 
-      <h3>Course Topics</h3>
+      <h3>Topics</h3>
       <ul>
         <li><a href="params/">Parameter Tampering Demo</a></li>
         <li><a href="sqli1/">SQL Injection Demo 1</a></li>
