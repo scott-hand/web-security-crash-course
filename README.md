@@ -21,6 +21,8 @@ Very little is needed to run these mini-apps.
 2. Make the lib/data directory writable by the web server. In Ubuntu, this can be accomplished by entering the following at the application's root: ```$ sudo chown USER:www-data lib/data```
 3. Similarly, make the grabber/logs directory writable by the web server.
 
+Alternatively, a Dockerfile is included. Use the Makefile to build the image and run it (binding to port 50505).
+
 After that, you're ready to go!
 
 Note that while some very basic precautions have been taken to protect the server running these applications, it's also not recommended that they be run on sensitive systems or over the Internet until some further testing has been done to work towards guaranteeing their safety. Certain attacks, such as denial of service by flooding the disk with cookie grabber data, have not been mitigated yet. So either wait until those are added, add them yourself, or in the mean time, don't run these on a public facing page for an extended duration of time.
